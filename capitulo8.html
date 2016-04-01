@@ -42,6 +42,8 @@
 				<section>
 					<h1>Capítulo 8</h1>
 					<h3>Das palavras ao contexto</h3>
+					<span class="subtitle" style="position: relative; top: 100px; font-size: 50%;"><strong>Apostila: </strong>Linguagens e Códigos<br><strong>Curso: </strong>Ensino Médio<br></span>
+					<span class="subtitle" style="position: relative; top: 100px; font-size: 50%;"><strong>Gui Bueno </strong>(gob.bueno ARROBA gmail.com)</span>
 				</section>
 				<section>
 					<h1>Como você aprendeu a falar português?</h1>
@@ -195,18 +197,18 @@
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: false,
+				controls: true,
 				progress: false,
 				history: true,
 				center: true,
 
                 audio: {
-                    prefix: 'audio/', 	// audio files are stored in the "audio" folder
+                    prefix: 'capitulo8-audio/', 	// audio files are stored in the "audio" folder
                     suffix: '.ogg',		// audio files have the ".ogg" ending
                     textToSpeechURL: null,  // the URL to the text to speech converter
                     defaultText: false, 	// use slide text as default for the text to speech converter
                     advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance 
-                    autoplay: false,	// automatically start slideshow
+                    autoplay: true,	// automatically start slideshow
                     defaultDuration: 5,	// default duration in seconds if no audio is available 
                     playerOpacity: 0.05,	// opacity value of audio player if unfocused
                     startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
