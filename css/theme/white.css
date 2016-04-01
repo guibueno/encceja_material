@@ -307,3 +307,12 @@ body {
 .atividade {
   color: #FFF;
  }
+
+ .subtitle {
+  background: #FFF;
+ }
+ .negative {
+  background: #000;
+  color: #FFF;
+  text-decoration: underline;
+ }
