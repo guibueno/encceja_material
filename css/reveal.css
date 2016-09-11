@@ -127,7 +127,7 @@ html:-moz-full-screen-ancestor {
   visibility: visible; }
 
 .reveal .slides section .fragment.highlight-red.visible {
-  color: #ff2c2d; }
+  background-color: yellow; }
 
 .reveal .slides section .fragment.highlight-green.visible {
   color: #17ff2e; }
